@@ -1,0 +1,770 @@
+/* font family import */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* hover increse size */
+.custom-btn
+{
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-btn:hover
+{
+    transform: scale(1.1);
+}
+/* make border */
+.booder-btn {
+    transition: border 0.3s ease-in-out;
+    border: 1px solid transparent;
+    padding: 5px;
+  }
+
+  .booder-btn:hover {
+    border: 1px solid red;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+/* change color */
+.coolor-btn
+{
+    transition: background-color 0.3s ease-in-out;
+}
+.coolor-btn:hover {
+    background-color: #ff9900; 
+    color: #fff;
+}
+
+/* top text */
+.only-text
+{   
+    background-color: #34495E;
+}
+.only-text p
+{
+    margin-top: 10px;
+    font-size: 27px;
+}
+.welcome-margin
+{
+    margin-top: -20px;
+    margin-bottom: -15px;
+    padding: 15px;
+}
+.welcome-text h4
+{
+    color: rgba(0, 0, 0, 0.73);
+}
+.logo img
+{
+    width: 17px;
+}
+.logo p
+{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    margin-top:4px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    padding-left: 4px;
+}
+.track img 
+{
+    width: 15px !important;
+}
+.english img 
+{
+    width: 20px !important;
+}
+.dropdown img
+{
+    width: 20px;
+}
+.vender
+{
+    background-color: #404041;
+}
+.vender h6
+{
+    margin-top: 2px;
+    font-size: 20px!important;
+}
+.vender img 
+{
+    width: 15px !important;
+    height: 10px;
+    margin-top: 10px;
+}
+.brand img 
+{
+    width: 22px!important;
+    height: 19px;
+    margin-top: 3px;
+}
+.sell img
+{
+    width: 20px !important;
+    height: 15px;
+}
+
+.middleline::before{
+    content: "";
+    width:2px;
+    height: 25px;
+    background-color: #E8E8E8;
+    position: absolute;
+    top: 10px;
+    bottom: 0px;
+}
+
+/* logo */
+.man-icon img
+{
+    width: 32px;
+}
+.altann-logo img
+{
+    width: 100%;
+}
+/* field input */
+.categories
+{
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 21px;
+}
+.inp
+{
+    margin-top: -6px;
+    border: 0px;
+}
+.field-border
+{
+    border: 1px solid rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 3rem;
+    height: 70px;
+}
+.inp::placeholder
+{
+    font-family: Inter;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+.input-height-shipp
+{
+    height: 58px;
+    width: 235%;
+    outline: none;
+}
+.btno
+{
+    background-color: #fff;
+    border: none;
+}
+.search-icon img
+{
+    width: 25px;
+    height: 25px;
+}
+.search-icon button
+{
+    padding: 12px;
+    border: 0px;
+    background-color: red;
+    border-radius: 4rem;
+}
+.vertical-line::before{
+    content: "";
+    width:2px;
+    height: 66px;
+    background-color:  rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 1px;
+    top: -8px;
+    bottom: 0px;
+}
+.categories img
+{
+    width: 17px;
+}
+/* main-women-image */
+.main-women-image 
+{
+    margin-top: -17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-image1
+{
+    background-image: url('../image/97kbLaFDaA\ 1.png');
+    height: 98%;
+}
+
+.card-image2
+{
+    background-image: url('../image/hA4xEuaQcx\ 1.png');
+    width: 100%;
+    height: 85%;
+}
+.card-image3
+{
+    background-image: url('../image/J8pReZadY3\ 1.png');
+    width: 100%;
+    height: 95%;
+}
+.card-image1 , .card-image2 , .card-image3
+{
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.button-arrow img
+{
+    width: 10px;
+}
+.button-arrow button{
+    font-size: 25px;
+    background:#EE3124;
+    border: 2px solid #EE3124;
+    border-radius: 5px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+    z-index: 1;
+}
+.card-image1 ,.card-image2, .card-image3 p
+{
+    font-size:30px;
+}
+
+/* slider */
+.card-body p
+{
+    font-weight: 500;
+    color: black;
+}
+
+/* FREE SHIPPING */
+.shoping-main
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.shipping-text
+{
+    margin-top: -65px !important;
+}
+.free-text
+{
+    font-size: 35px;
+}
+.bgImg{
+    background:url('../image/image1.png');
+    background-size: cover;
+    height: 320px;
+}
+.button-position
+{
+    position: absolute;
+    top: 245px;
+    left: 10px;
+}
+.card-two-image img
+{
+    height: 355px;
+}
+.logo-image
+{
+    margin-top: 100px !important;
+}
+.padding-remove p
+{
+    bottom: 0px;
+    margin-top: -15px;
+}
+.text-bottom
+{
+    margin-bottom: 30px;
+}
+.service
+{
+    margin-left: -50px;
+}
+.mail-logo img
+{
+    width: 90px;
+    height: 75px;
+}
+.mail-logo h2
+{
+    margin-top: 6px;
+}
+.mail-logo p
+{
+    font-size: 13px;
+    margin-top: -7px;
+}
+.hr-line
+{
+    margin-left: 75px;
+}
+
+.border-padding
+{
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+/* subscribe-button */
+.button {
+    background-color: #EE3124;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+.subscribe-button
+{
+    position: absolute;
+    top: -3px;
+    right: -2px;
+}
+/* email-text-field */
+.form-rounded
+{
+    border-radius: 2rem !important;
+}
+.input-height , .button
+{
+    height: 70px !important;
+}
+.tech-text 
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.tech-text p
+{
+    font-size: 25px !important;
+    font-weight: 500;
+}
+.two-slider-button
+{
+    position: absolute;
+    top: 175px;
+    left: 7px;
+}
+.featured h2
+{
+    color: #333E48;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+}
+.hr-LLine
+{
+    position: absolute;
+    top: 3px;
+    color: black !important;
+}
+.hr-LLine-additional
+{
+    position: absolute;
+    top: 26px !important;
+}
+
+.button-slider
+{
+    position: absolute;
+    top: -50px;
+}
+/* .button-slider-add img */
+{
+    /* position: absolute; */
+    /* top: -16px !important; */
+}
+
+.button-slider , .pre-button img
+{
+    position: absolute;
+    right: 120px !important;
+} 
+
+.button-slider , .buton-next img
+{
+    position: absolute;
+    right: 38px !important;
+}
+
+.buton-next-add img
+{
+    position: absolute;
+    right: 33px !important;
+    top: 23px;
+}
+.pre-button-add img
+{
+    position: absolute;
+    right: 120px !important;
+    top: -9px !important;
+}
+
+/* bottom-icons */
+.buton-next-bottom img
+{
+    width: 29px;
+    height: 28px;
+    position: absolute;
+    right: 38px !important;
+    bottom:  -10px;
+}
+.pre-button-bottom img
+{
+    width: 29px;
+    height: 28px;
+    position: absolute;
+    right: 125px !important;
+    bottom:  -10px;
+}
+.button-slider-bottom
+{
+    position: absolute;
+    right: 40px;
+}
+
+.swiper-button-next::after{
+    display: none;
+}
+.swiper-button-prev::after{
+    display: none;
+}
+.button-slider img
+{
+    width: 29px !important;
+    height: 28px !important;
+}
+
+.sdiv
+{
+    display: block;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1338px)
+{
+    .card-two-image img
+    {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1280px)
+{
+    .hr-LLine
+    {
+        width: 67% !important;
+    }
+    .input-height-shipp
+    {
+        width: 170px;
+    }
+}
+
+
+@media screen and (max-width: 1200px)
+{
+    .service
+    {
+        margin-left: 0px;
+    }
+    .hr-line
+    {
+        margin-left: 40px;
+    }
+    .middleline::before
+    {
+        display: none;
+    }
+    .button-position
+    {
+        top: 200px;
+    }
+    .two-slider-button
+    {
+        top: 100px;
+    }
+    .tech-text 
+    {
+        top: 20px;
+    }
+    .tech-text h1
+    {
+        font-size: 20px;
+    }
+    .tech-text p
+    {
+        font-size: 16px !important;
+    }
+
+}
+@media screen and (max-width: 1050px)
+{
+    .button-position
+    {
+        top: 170px;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .placeholder-width
+    {
+        width: 80.5% !important;
+    }
+    .hr-LLine
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 921px)
+{
+    .shoping-main h2
+    {
+        font-size: 20px;
+    }
+    .shoping-main p
+    {
+        font-size: 16px !important  ;
+    }
+    .button-position
+    {
+        top: 120px;
+    }
+    .button-position button
+    {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .man-icon
+    {
+        margin-bottom: 10px;
+    }
+    .admin
+    {
+        margin-right: 20px;
+    }
+    .logo-image
+    {
+        margin-top: 10px !important;
+    }
+    .logo-image img
+    {
+        width: 50% !important;
+    }
+    .hr-line
+    {
+        display: none;
+    }
+    .featured h2 , .vender h5 , .vender h6
+    {
+        font-size: 17px !important;
+    }
+    .featured h2
+    {
+        padding-top: 7px;
+    }
+    .buton-next img , .pre-button img 
+    {
+        top: 41px !important;
+    }
+
+    /* .pre-button img 
+    {
+        top: 41px !important;
+    } */
+    .button-slider img
+    {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .hr-LLine
+    {
+        width: 65% !important;
+    }
+    .today  , .direction-column
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .direction-column , .man-icon
+    {
+        align-items: center;
+    }
+    .man-icon img{
+        margin-top: 10px;
+    }
+    .man-icon
+    {
+        display: flex;
+        align-self: center;
+    }
+    .altann-logo img
+    {
+        width: 22%;
+    }
+    .slider-button-image img
+    {
+        width: 25px;
+    }
+    .slider-button {
+        top: -40px;
+        right: 60px;
+      }
+      .slider-button1
+       {
+        top: -40px;
+        right: 10px;
+      }
+      .button-position
+    {
+        top: 300px;
+    }
+    .card-3-image
+    {
+        flex-wrap: wrap;
+    }
+    .button-text
+    {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .two-slider-button
+    {
+        top: 138px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .man-icon
+    {
+        margin-bottom: 10px;
+    }
+    .direction-column
+    {
+        align-items: flex-start;
+    }
+    .subsrcibe-none ,     .vender img
+    {
+        display: none!important;
+    }
+    .altann-logo img
+    {
+        width: 30%;
+    }
+    .categories , .inp::placeholder
+    {
+        font-size: 14px;
+        margin-left: -15px;
+    }
+    .categories img
+    {
+        width: 12px;
+    }
+    .sed
+    {
+        display: none !important; 
+    }
+    .tech-text 
+    {
+        top: 20px;
+    }
+    .tech-text h1
+    {
+        font-size: 18px;
+    }
+    .tech-text p
+    {
+        font-size: 14px !important;
+    }
+    .hr-LLine
+    {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .button-arrow
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .only-text p
+    {
+        font-size: 20px;
+    }
+    .mail-logo
+    {
+        margin-left: 13px;
+    }
+    .logo-image
+    {
+        margin-top: -80px!important;
+    }
+    .padding-remove h3 , .service
+    {
+        font-size: 18px;
+    }
+    .padding-remove a
+    {
+        font-size: 15px !important;
+    }
+    .altann-logo img
+    {
+        width: 40%;
+    }
+    .mail-logo img
+    {
+        margin-top: 16px;
+        width: 50px;
+        height: 40px;
+    }
+    .padding-remove , .service
+    {
+        text-align: start;
+    }
+    .search-icon button {
+        height: 50px;
+        width: 50px;
+    }
+    .inp
+    {
+        width: 114px;
+    }
+    .buton-next-bottom img
+    {
+        right: 0px !important;
+    }
+    .pre-button-bottom img
+    {
+        right: 82px !important;
+    }
+}
